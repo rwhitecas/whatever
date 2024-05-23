@@ -25,7 +25,7 @@ jobs:
 
       - name: (3) Scan the Public Web App
         run: |
-          nightvision scan -t vulnvebtest -a Default
+          nightvision scan -t vulnwebtest -a Default
           
       - name: (4) Scan the Public API
         run: |
